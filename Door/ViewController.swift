@@ -37,7 +37,7 @@ class ViewController: UIViewController {
 
         let knobLayer = CALayer()
         knobLayer.bounds = CGRect(x: 0.0, y: 0.0, width: 20.0, height: 20.0)
-        knobLayer.cornerRadius = 10.0
+        knobLayer.cornerRadius = 10.0 // Corner radius with half the size of the width and height make it round
         knobLayer.backgroundColor = UIColor.blueColor().CGColor
         knobLayer.position = CGPoint(x: 30.0, y: slideLayer.bounds.size.height / 2.0)
         
